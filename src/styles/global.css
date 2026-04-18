@@ -1,0 +1,93 @@
+/* Custom Properties */
+:root {
+  --blue-900: hsl(230, 35%, 7%);
+  --blue-300: hsl(231, 77%, 90%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Bellefair Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/bellefair-v15-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/barlow-v13-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow Condensed Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/barlow-condensed-v12-latin-regular.woff2")
+    format("woff2");
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
