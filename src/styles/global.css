@@ -87,6 +87,12 @@ h6 {
   text-wrap: balance;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
 #root,
 #__next {
   isolation: isolate;
