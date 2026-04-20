@@ -1,0 +1,41 @@
+.navbar__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  position: relative;
+}
+
+.nav__toggle {
+  z-index: 999;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  transform: translateX(100%);
+  text-transform: uppercase;
+}
+
+.nav__list--visible {
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+  padding: 4rem 1rem;
+  z-index: 998;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+}
