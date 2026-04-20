@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Navbar.css";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +10,8 @@ export function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+      <div className="navbar__top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42">
           <g fill="none" fill-rule="evenodd">
             <circle cx="24" cy="24" r="24" fill="#FFF" />
             <path
@@ -19,37 +20,37 @@ export function Navbar() {
             />
           </g>
         </svg>
+
+        <button
+          className="nav__toggle"
+          onClick={toggleMenu}
+          aria-expanded={isOpen}
+          aria-label="Toggle navigation menu"
+        >
+          {isOpen ? (
+            /* Close Icon */
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21">
+              <g fill="#D0D6F9" fillRule="evenodd">
+                <path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" />
+                <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" />
+              </g>
+            </svg>
+          ) : (
+            /* Hamburger Icon */
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21">
+              <g fill="#D0D6F9" fillRule="evenodd">
+                <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
+              </g>
+            </svg>
+          )}
+        </button>
       </div>
 
-      <button
-        className="nav__toggle"
-        onClick={toggleMenu}
-        aria-expanded={isOpen}
-        aria-label="Toggle navigation menu"
-      >
-        {isOpen ? (
-          /* Close Icon */
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21">
-            <g fill="#D0D6F9" fillRule="evenodd">
-              <path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z" />
-              <path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z" />
-            </g>
-          </svg>
-        ) : (
-          /* Hamburger Icon */
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21">
-            <g fill="#D0D6F9" fillRule="evenodd">
-              <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
-            </g>
-          </svg>
-        )}
-      </button>
-
       <ul className={`nav__list ${isOpen ? "nav__list--visible" : ""}`}>
-        <li className="nav__item">Home</li>
-        <li className="nav__item">Destination</li>
-        <li className="nav__item">Crew</li>
-        <li className="nav__item">Technology</li>
+        <li className="nav__item">00 Home</li>
+        <li className="nav__item">01 Destination</li>
+        <li className="nav__item">02 Crew</li>
+        <li className="nav__item">03 Technology</li>
       </ul>
     </nav>
   );
