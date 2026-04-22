@@ -12,7 +12,7 @@ export function Navbar() {
     <nav className="navbar">
       <div className="navbar__top">
         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42">
-          <g fill="none" fill-rule="evenodd">
+          <g fill="none" fillRule="evenodd">
             <circle cx="24" cy="24" r="24" fill="#FFF" />
             <path
               fill="#0B0D17"
