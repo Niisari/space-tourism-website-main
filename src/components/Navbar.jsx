@@ -11,7 +11,12 @@ export function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar__top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="38"
+          height="38"
+          viewBox="0 0 48 48"
+        >
           <g fill="none" fillRule="evenodd">
             <circle cx="24" cy="24" r="24" fill="#FFF" />
             <path
@@ -47,7 +52,9 @@ export function Navbar() {
       </div>
 
       <ul className={`nav__list ${isOpen ? "nav__list--visible" : ""}`}>
-        <li className="nav__item">00 Home</li>
+        <li className="nav__item">
+          <a href="/">00 Home</a>
+        </li>
         <li className="nav__item">01 Destination</li>
         <li className="nav__item">02 Crew</li>
         <li className="nav__item">03 Technology</li>
