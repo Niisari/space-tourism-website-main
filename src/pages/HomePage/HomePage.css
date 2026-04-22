@@ -1,0 +1,48 @@
+.HomePage__container {
+  background: url("../../../public/assets/home/background-home-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 6rem;
+}
+
+.HomePage__container,
+.HomePage__text--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.HomePage__subtitle {
+  color: var(--blue-300);
+  font-family: "Barlow Regular";
+  font-weight: 400;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.HomePage__title {
+  color: var(--white);
+  font-family: "Bellefair Regular";
+  font-weight: 400;
+  font-size: 6.25rem;
+}
+
+.HomePage__paragraph {
+  color: var(--blue-300);
+  font-family: "Barlow Regular";
+  margin-bottom: 10vh;
+  padding: 0 2rem;
+}
+
+.HomePage__btn {
+  background: var(--white);
+  color: var(--blue-900);
+  font-family: "Bellefair Regular";
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 3.5rem 2rem;
+  border-radius: 100%;
+}
