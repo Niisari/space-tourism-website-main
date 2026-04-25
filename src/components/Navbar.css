@@ -42,6 +42,17 @@
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out;
+
+  .nav__item a {
+    font-family: "Barlow Regular", sans-serif;
+    color: var(--blue-300);
+
+    .nav__number {
+      display: inline-block;
+      width: 2ch;
+      color: var(--white);
+    }
+  }
 }
 
 .nav__list--visible {
