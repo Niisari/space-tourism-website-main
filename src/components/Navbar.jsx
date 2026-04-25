@@ -53,11 +53,26 @@ export function Navbar() {
 
       <ul className={`nav__list ${isOpen ? "nav__list--visible" : ""}`}>
         <li className="nav__item">
-          <a href="/">00 Home</a>
+          <a href="/">
+            <span className="nav__number">00</span> Home
+          </a>
         </li>
-        <li className="nav__item">01 Destination</li>
-        <li className="nav__item">02 Crew</li>
-        <li className="nav__item">03 Technology</li>
+        <li className="nav__item">
+          <a>
+            {" "}
+            <span className="nav__number">01</span> Destination
+          </a>
+        </li>
+        <li className="nav__item">
+          <a>
+            <span className="nav__number">02</span> Crew
+          </a>
+        </li>
+        <li className="nav__item">
+          <a>
+            <span className="nav__number">03</span> Technology
+          </a>
+        </li>
       </ul>
     </nav>
   );
