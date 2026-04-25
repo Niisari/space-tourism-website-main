@@ -93,6 +93,10 @@ button {
   background: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 #root,
 #__next {
   isolation: isolate;
