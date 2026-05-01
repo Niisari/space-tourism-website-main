@@ -16,6 +16,7 @@ export function Navbar() {
           width="38"
           height="38"
           viewBox="0 0 48 48"
+          className="logo"
         >
           <g fill="none" fillRule="evenodd">
             <circle cx="24" cy="24" r="24" fill="#FFF" />
