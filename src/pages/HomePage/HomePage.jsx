@@ -12,7 +12,9 @@ export function HomePage() {
           experience!
         </p>
       </div>
-      <button className="HomePage__btn">EXPLORE</button>
+      <div className="HomePage__btn--wrapper">
+        <button className="HomePage__btn">EXPLORE</button>
+      </div>
     </div>
   );
 }
