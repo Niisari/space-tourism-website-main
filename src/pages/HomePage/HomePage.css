@@ -3,7 +3,8 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  padding-top: 6rem;
+  padding: 6.5rem 1.5rem 1.5rem 1.5rem;
+  gap: auto;
 }
 
 .HomePage__container,
@@ -14,25 +15,35 @@
   text-align: center;
 }
 
+.HomePage__text--content {
+  flex: 1;
+  gap: 1.5rem;
+}
+
+.HomePage__btn--wrapper {
+  flex: 1;
+}
+
 .HomePage__subtitle {
   color: var(--blue-300);
   font-family: "Barlow Condensed Regular";
   font-weight: 400;
-  font-size: 1.125rem;
-  letter-spacing: 4px;
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 
 .HomePage__title {
   color: var(--white);
   font-family: "Bellefair Regular";
   font-weight: 400;
-  font-size: 6.25rem;
+  font-size: 5rem;
 }
 
 .HomePage__paragraph {
   color: var(--blue-300);
   font-family: "Barlow Regular";
   line-height: 1.8;
+  font-size: 0.938rem;
 }
 
 .HomePage__btn {
@@ -53,10 +64,6 @@
     background-position: center;
     padding: 12rem 2.5rem 8rem 2.5rem;
     gap: 4rem;
-  }
-
-  .HomePage__text--content {
-    gap: 1.5rem;
   }
 
   .HomePage__title {
