@@ -54,9 +54,7 @@ export function Navbar() {
 
       <ul className={`nav__list ${isOpen ? "nav__list--visible" : ""}`}>
         <li className="nav__item">
-          <a href="/">
-            <span className="nav__number">00</span> Home
-          </a>
+          <a href="/">Home</a>
         </li>
         <li className="nav__item">
           <a>
