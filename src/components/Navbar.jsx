@@ -52,6 +52,8 @@ export function Navbar() {
         </button>
       </div>
 
+      <div className="line"></div>
+
       <ul className={`nav__list ${isOpen ? "nav__list--visible" : ""}`}>
         <li className="nav__item">
           <a href="/">Home</a>
