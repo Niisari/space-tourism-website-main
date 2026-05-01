@@ -1,5 +1,6 @@
 .HomePage__container {
-  background: url("../../../public/assets/home/background-home-mobile.jpg");
+  background: url("../../../public/assets/home/background-home-mobile.jpg")
+    no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -59,7 +60,8 @@
 
 @media only screen and (min-width: 48rem) {
   .HomePage__container {
-    background: url("../../../public/assets/home/background-home-tablet.jpg");
+    background: url("../../../public/assets/home/background-home-tablet.jpg")
+      no-repeat;
     background-size: cover;
     background-position: center;
     padding: 12rem 2.5rem 8rem 2.5rem;
@@ -83,5 +85,27 @@
     width: 17rem;
     height: 17rem;
     font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .HomePage__container {
+    background: url("../../../public/assets/home/background-home-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .HomePage__text--content {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .HomePage__btn--wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
   }
 }
