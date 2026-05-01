@@ -16,11 +16,10 @@
 
 .HomePage__subtitle {
   color: var(--blue-300);
-  font-family: "Barlow Regular";
+  font-family: "Barlow Condensed Regular";
   font-weight: 400;
   font-size: 1.125rem;
-  letter-spacing: 2px;
-  margin-bottom: 1rem;
+  letter-spacing: 4px;
 }
 
 .HomePage__title {
@@ -33,8 +32,7 @@
 .HomePage__paragraph {
   color: var(--blue-300);
   font-family: "Barlow Regular";
-  margin-bottom: 10vh;
-  padding: 0 2rem;
+  line-height: 1.8;
 }
 
 .HomePage__btn {
@@ -42,7 +40,41 @@
   color: var(--blue-900);
   font-family: "Bellefair Regular";
   font-weight: 400;
-  font-size: 1.25rem;
-  padding: 3.5rem 2rem;
+  font-size: 1.125rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 100%;
+}
+
+@media only screen and (min-width: 48rem) {
+  .HomePage__container {
+    background: url("../../../public/assets/home/background-home-tablet.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 12rem 2.5rem 8rem 2.5rem;
+    gap: 4rem;
+  }
+
+  .HomePage__text--content {
+    gap: 1.5rem;
+  }
+
+  .HomePage__title {
+    font-size: 9rem;
+  }
+
+  .HomePage__subtitle {
+    font-size: 1.75rem;
+  }
+
+  .HomePage__text--content,
+  .HomePage__btn--wrapper {
+    max-width: 32rem;
+  }
+
+  .HomePage__btn {
+    width: 17rem;
+    height: 17rem;
+    font-size: 2rem;
+  }
 }
