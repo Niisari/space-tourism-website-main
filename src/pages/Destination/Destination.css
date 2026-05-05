@@ -1,0 +1,115 @@
+.Destination__container {
+  background: url("../../../public/assets/destination/background-destination-mobile.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 6.5rem 1.5rem 1.5rem 1.5rem;
+
+  .Destination__subtitle {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--white);
+
+    .subtitle__num {
+      font-family: "Barlow Condensed Regular";
+      opacity: 25%;
+    }
+
+    .subtitle__text {
+      font-family: "Bellefair Regular";
+    }
+  }
+
+  .Destination__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    img {
+      width: 9.375rem;
+    }
+  }
+
+  .Destination__btn--list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    font-family: "Barlow Regular";
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    opacity: 100%;
+    color: var(--blue-300);
+    list-style: none;
+
+    .Destination__btn--active {
+      color: var(--white);
+      text-decoration: underline;
+      text-underline-offset: 0.688rem;
+      text-decoration-thickness: 3px;
+    }
+  }
+
+  .Destination__text--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+
+    .Destination__title {
+      font-family: "Bellefair Regular";
+      font-weight: 400;
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+
+    .Destination__description {
+      font-family: "Barlow Regular";
+      font-weight: 400;
+      font-size: 0.938rem;
+      line-height: 1.8;
+      color: var(--blue-300);
+
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      padding-bottom: 1.5rem;
+    }
+
+    .Destination__avg--content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .Destination__avg--distance,
+      .Destination__est--travel {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .avg__title {
+        font-family: "Barlow Condensed Regular";
+        font-weight: 400;
+        font-size: 0.875rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--blue-300);
+      }
+
+      .avg__text {
+        font-family: "Bellefair Regular";
+        font-weight: 400;
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        color: var(--white);
+      }
+    }
+  }
+}
