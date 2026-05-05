@@ -1,0 +1,12 @@
+@keyframes fadein {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.fadein {
+  animation: fadein 1s;
+}
