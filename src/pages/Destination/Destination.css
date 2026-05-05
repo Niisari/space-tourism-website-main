@@ -31,6 +31,9 @@
 
     img {
       width: 9.375rem;
+      height: 9.375rem;
+      margin-top: 30px;
+      margin-bottom: 23px;
     }
   }
 
@@ -47,6 +50,7 @@
     opacity: 100%;
     color: var(--blue-300);
     list-style: none;
+    cursor: pointer;
 
     .Destination__btn--active {
       color: var(--white);
