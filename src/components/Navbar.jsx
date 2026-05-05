@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router";
 import "./Navbar.css";
 
 export function Navbar() {
@@ -56,10 +57,12 @@ export function Navbar() {
 
       <ul className={`nav__list ${isOpen ? "nav__list--visible" : ""}`}>
         <li className="nav__item">
-          <a href="/">Home</a>
+          <a href="/">
+            <span className="nav__number home">00</span>Home
+          </a>
         </li>
         <li className="nav__item">
-          <a>
+          <a href="/destination">
             {" "}
             <span className="nav__number">01</span> Destination
           </a>

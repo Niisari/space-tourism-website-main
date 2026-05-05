@@ -81,6 +81,10 @@
     border: none;
   }
 
+  .home.home.home.home {
+    display: none;
+  }
+
   .nav__toggle {
     display: none;
   }
