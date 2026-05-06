@@ -16,6 +16,8 @@
 
     .subtitle__num {
       font-family: "Barlow Condensed Regular";
+      font-weight: bold;
+      letter-spacing: 2px;
       opacity: 25%;
     }
 
@@ -113,6 +115,51 @@
         font-size: 1.75rem;
         text-transform: uppercase;
         color: var(--white);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .Destination__container {
+    background: url("../../../public/assets/destination/background-destination-tablet.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 9rem 2.5rem 2.5rem 2.5rem;
+
+    .Destination__subtitle {
+      font-size: 1.25rem;
+      justify-content: flex-start;
+    }
+
+    .Destination__img {
+      img {
+        width: 18.75rem;
+        height: 18.75rem;
+      }
+    }
+
+    .Destination__btn--list {
+      font-size: 1rem;
+    }
+
+    .Destination__text--content {
+      max-width: 32.125rem;
+      margin: 0 auto;
+
+      .Destination__title {
+        font-size: 5rem;
+      }
+
+      .Destination__description {
+        font-size: 1rem;
+      }
+
+      .Destination__avg--content {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
       }
     }
   }
