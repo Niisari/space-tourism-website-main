@@ -98,6 +98,7 @@
 @media (min-width: 64rem) {
   .navbar {
     padding-top: 2.5rem;
+    height: 8.5rem;
   }
 
   .navbar__top {
