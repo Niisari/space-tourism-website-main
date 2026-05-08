@@ -28,14 +28,14 @@
 
   .Destination__img {
     display: flex;
+    align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
+    height: 12.688rem;
 
     img {
       width: 9.375rem;
       height: 9.375rem;
-      margin-top: 30px;
-      margin-bottom: 23px;
     }
   }
 
@@ -134,6 +134,8 @@
     }
 
     .Destination__img {
+      height: 24rem;
+
       img {
         width: 18.75rem;
         height: 18.75rem;
