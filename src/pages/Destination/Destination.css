@@ -1,10 +1,16 @@
-.Destination__container {
+.Destination__wrapper {
   background: url("../../../public/assets/destination/background-destination-mobile.jpg")
     no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  width: 100%;
+  min-height: 100svh;
+}
+
+.Destination__container {
   padding: 6.5rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  min-height: 100svh;
 
   .Destination__subtitle {
     display: flex;
@@ -67,7 +73,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 1.5rem;
 
     .Destination__title {
       font-family: "Bellefair Regular";
@@ -75,6 +80,7 @@
       font-size: 3.5rem;
       text-transform: uppercase;
       color: var(--white);
+      margin-bottom: 1rem;
     }
 
     .Destination__description {
@@ -92,6 +98,7 @@
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
+      margin-top: 1.5rem;
 
       .Destination__avg--distance,
       .Destination__est--travel {
@@ -121,11 +128,14 @@
 }
 
 @media only screen and (min-width: 48rem) {
-  .Destination__container {
+  .Destination__wrapper {
     background: url("../../../public/assets/destination/background-destination-tablet.jpg")
       no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .Destination__container {
     padding: 9rem 2.5rem 2.5rem 2.5rem;
 
     .Destination__subtitle {
@@ -162,6 +172,86 @@
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .Destination__wrapper {
+    background: url("../../../public/assets/destination/background-destination-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Destination__container {
+    padding: 10rem 0 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 69.375rem;
+    width: 100%;
+
+    .Destination__subtitle {
+      font-size: 1.75rem;
+    }
+
+    .Destination__img {
+      display: flex;
+      justify-content: flex-start;
+      flex: 1;
+      margin-bottom: 0;
+
+      img {
+        width: 30rem;
+        height: auto;
+      }
+    }
+
+    .Destination__btn--list {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  .Destination__btn--wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Destination__content--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 49.5rem;
+    gap: 2rem;
+
+    .Destination__text--content {
+      align-items: flex-start;
+      text-align: left;
+      margin: 0;
+
+      .Destination__title {
+        font-size: 6rem;
+      }
+
+      .Destination__description {
+        font-size: 1.125rem;
+        padding-bottom: 2.5rem;
+      }
+
+      .Destination__avg--content {
+        margin-top: 2.5rem;
+        justify-content: flex-start;
+
+        .Destination__avg--distance,
+        .Destination__est--travel {
+          width: 13.156rem;
+        }
       }
     }
   }
