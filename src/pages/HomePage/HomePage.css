@@ -83,6 +83,10 @@
     font-size: 1.75rem;
   }
 
+  .HomePage__paragraph {
+    font-size: 1rem;
+  }
+
   .HomePage__text--content,
   .HomePage__btn--wrapper {
     max-width: 32rem;
