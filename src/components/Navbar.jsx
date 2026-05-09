@@ -68,7 +68,7 @@ export function Navbar() {
           </a>
         </li>
         <li className="nav__item">
-          <a>
+          <a href="/crew">
             <span className="nav__number">02</span> Crew
           </a>
         </li>
