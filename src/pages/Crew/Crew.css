@@ -37,11 +37,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-
   flex: 2;
 
   position: relative;
-  margin-top: 2.5rem;
+  padding-top: 2.5rem;
   min-height: 19.938rem;
 
   .Crew__title {
@@ -74,9 +73,8 @@
   }
 
   .Crew__btn--wrapper {
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    margin-top: auto;
   }
 
   .Crew__btn--list {
@@ -84,7 +82,7 @@
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    margin: 1.5rem 0 2rem;
+    padding: 1.5rem 0 0;
   }
 }
 
@@ -104,14 +102,14 @@
 
 .Crew__content--wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  align-items: flex-end;
+  justify-content: center;
   flex: 1;
+  margin-top: 2rem;
 
-  .Crew__img {
+  .Crew__img img {
     width: 100%;
-    height: auto;
+    height: 21.938rem;
     display: block;
 
     -webkit-mask-image: linear-gradient(
