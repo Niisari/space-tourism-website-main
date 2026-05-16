@@ -1,0 +1,128 @@
+.Crew__wrapper {
+  background: url("../../../public/assets/crew/background-crew-mobile.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100svh;
+}
+
+.Crew__container {
+  padding: 6.5rem 1.5rem 1.5rem 1.5rem;
+  min-height: 100svh;
+}
+
+.Crew__subtitle {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: var(--white);
+
+  .subtitle__num {
+    font-family: "Barlow Condensed Regular";
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 25%;
+  }
+
+  .subtitle__text {
+    font-family: "Bellefair Regular";
+  }
+}
+
+.Crew__text--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  flex: 2;
+
+  position: relative;
+  margin-top: 2.5rem;
+  min-height: 19.938rem;
+
+  .Crew__title {
+    font-family: "Bellefair Regular";
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    margin-bottom: 0.5rem;
+    color: var(--white);
+    opacity: 50%;
+  }
+
+  .Crew__name {
+    font-family: "Bellefair Regular";
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+    color: var(--white);
+  }
+
+  .Crew__paragraph {
+    font-family: "Barlow Regular";
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 1.8;
+    color: var(--blue-300);
+  }
+
+  .Crew__btn--wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .Crew__btn--list {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0 2rem;
+  }
+}
+
+.dot {
+  display: inline-block;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  background-color: var(--white);
+  opacity: 25%;
+  cursor: pointer;
+}
+
+.dot.active {
+  opacity: 100%;
+}
+
+.Crew__content--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex: 1;
+
+  .Crew__img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 60%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 60%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
