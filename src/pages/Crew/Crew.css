@@ -100,7 +100,7 @@
   opacity: 100%;
 }
 
-.Crew__content--wrapper {
+.Crew__img--wrapper {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -158,9 +158,93 @@
     }
   }
 
-  .Crew__content--wrapper {
+  .Crew__img--wrapper {
     .Crew__img img {
       height: 35rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 62rem) {
+  .Crew__wrapper {
+    background: url("../../../public/assets/crew/background-crew-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Crew__container {
+    max-width: 68.75rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 11.5rem 0 3rem 0;
+  }
+
+  .Crew__subtitle {
+    font-size: 1.75rem;
+  }
+
+  .Crew__text--content {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    padding: 0;
+    text-align: left;
+
+    .Crew__title {
+      font-size: 2rem;
+    }
+
+    .Crew__name {
+      font-size: 3.5rem;
+    }
+
+    .Crew__paragraph {
+      font-size: 1.125rem;
+    }
+
+    .Crew__btn--list {
+      justify-content: flex-start;
+      align-items: flex-end;
+      gap: 2.5rem;
+      padding: 0;
+    }
+  }
+
+  .dot {
+    width: 0.938rem;
+    height: 0.938rem;
+  }
+
+  .Crew__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .Crew__text--wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      height: 100%;
+    }
+  }
+
+  .Crew__img--wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin-top: 0;
+
+    .Crew__img img {
+      height: 42.25rem;
     }
   }
 }
