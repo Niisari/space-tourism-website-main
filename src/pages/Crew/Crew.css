@@ -124,3 +124,43 @@
     );
   }
 }
+
+@media only screen and (min-width: 48rem) {
+  .Crew__wrapper {
+    background: url("../../../public/assets/crew/background-crew-tablet.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Crew__container {
+    padding: 8.5rem 2.5rem 2.5rem 2.5rem;
+  }
+
+  .Crew__subtitle {
+    font-size: 1.25rem;
+    justify-content: flex-start;
+  }
+
+  .Crew__text--content {
+    min-height: 19.063rem;
+    .Crew__title {
+      font-size: 1.5rem;
+    }
+
+    .Crew__name {
+      font-size: 2.5rem;
+    }
+
+    .Crew__paragraph {
+      font-size: 1rem;
+      max-width: 32rem;
+    }
+  }
+
+  .Crew__content--wrapper {
+    .Crew__img img {
+      height: 35rem;
+    }
+  }
+}
