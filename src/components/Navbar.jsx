@@ -73,7 +73,7 @@ export function Navbar() {
           </a>
         </li>
         <li className="nav__item">
-          <a>
+          <a href="/technology">
             <span className="nav__number">03</span> Technology
           </a>
         </li>
