@@ -42,11 +42,13 @@ export function Technology() {
               ))}
             </div>
 
-            <h2 className="Technology__title">THE TERMINOLOGY...</h2>
-            <h1 className="Technology__name">{selectedTechnology.name}</h1>
-            <p className="Technology__paragraph">
-              {selectedTechnology.description}
-            </p>
+            <div className="Tech__text-wrapper">
+              <h2 className="Technology__title">THE TERMINOLOGY...</h2>
+              <h1 className="Technology__name">{selectedTechnology.name}</h1>
+              <p className="Technology__description">
+                {selectedTechnology.description}
+              </p>
+            </div>
           </div>
         </div>
       </div>
