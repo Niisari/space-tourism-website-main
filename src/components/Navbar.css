@@ -43,6 +43,15 @@
     letter-spacing: 2px;
     color: var(--blue-300);
 
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    border-bottom: 3px solid transparent;
+
     .nav__number {
       display: inline-block;
       color: var(--white);
@@ -51,8 +60,12 @@
   }
 
   .active {
-    text-decoration: underline;
+    border-bottom: 3px solid var(--white);
     color: var(--white);
+  }
+
+  .nav__item:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
   }
 }
 
