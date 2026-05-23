@@ -5,11 +5,21 @@
   background-position: center;
   width: 100%;
   min-height: 100svh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .HomePage__container {
+  max-width: 68.75rem;
+  width: 100%;
   padding: 6.5rem 1.5rem 1.5rem 1.5rem;
   gap: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .HomePage__container,
@@ -60,6 +70,10 @@
   width: 9rem;
   height: 9rem;
   border-radius: 100%;
+}
+
+.HomePage__btn:hover {
+  box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.1);
 }
 
 @media only screen and (min-width: 48rem) {
