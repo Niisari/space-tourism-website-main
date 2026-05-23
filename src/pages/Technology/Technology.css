@@ -64,6 +64,10 @@
   color: black;
 }
 
+.dot__tech:hover {
+  border: 1px solid var(--white);
+}
+
 .Technology__text--container {
   padding: 0 1.5rem 0 1.5rem;
 
