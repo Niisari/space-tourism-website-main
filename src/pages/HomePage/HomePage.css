@@ -70,10 +70,12 @@
   width: 9rem;
   height: 9rem;
   border-radius: 100%;
+  box-shadow: 0 0 0 0px rgba(255, 255, 255, 0);
+  transition: box-shadow 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .HomePage__btn:hover {
-  box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.15);
 }
 
 @media only screen and (min-width: 48rem) {
