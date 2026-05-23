@@ -5,3 +5,64 @@
   background-position: center;
   min-height: 100svh;
 }
+
+.Technology__container {
+  padding: 6.5rem 0 3rem 0;
+}
+
+.Technology__subtitle {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1rem;
+  font-family: "Barlow Regular";
+  color: var(--white);
+
+  .subtitle__num {
+    font-family: "Barlow Condensed Regular";
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 25%;
+  }
+}
+
+.Technology__image {
+  padding: 4rem 0 2rem 0;
+}
+
+.Technology__image img,
+.Technology__image picture {
+  width: 100%;
+  min-height: 16.125rem;
+  display: block;
+}
+
+.Technology__btn--wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dot__tech {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+
+  font-size: 1.125rem;
+  font-family: "Bellefair Regular";
+  color: var(--white);
+}
+
+.dot__tech.active {
+  background-color: var(--white);
+  color: black;
+}
+
+.Technology__text--container {
+  padding: 0 1.5rem 0 1.5rem;
+}
