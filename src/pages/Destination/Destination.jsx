@@ -19,7 +19,10 @@ export function Destination() {
             <span className="subtitle__text">PICK YOUR DESTINATION</span>
           </div>
 
-          <div className="Destination__content--wrapper">
+          <div
+            className="Destination__content--wrapper fade-in-content"
+            key={selectedDestination.name}
+          >
             <div className="Destination__img">
               <img
                 src={selectedDestination.images.png}

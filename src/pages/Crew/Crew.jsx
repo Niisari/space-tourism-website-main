@@ -18,7 +18,10 @@ export function Crew() {
             <span className="subtitle__text">MEET YOUR CREW</span>
           </div>
 
-          <div className="Crew__content">
+          <div
+            className="Crew__content fade-in-content"
+            key={selectedCrewMember.name}
+          >
             <div className="Crew__text--content">
               <div className="Crew__text--wrapper">
                 <h2 className="Crew__title">{selectedCrewMember.role}</h2>

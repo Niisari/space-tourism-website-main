@@ -17,7 +17,10 @@ export function Technology() {
             <span className="subtitle__text">SPACE LAUNCH 101</span>
           </div>
 
-          <div className="Technology__content--container">
+          <div
+            className="Technology__content--container fade-in-content"
+            key={selectedTechnology.name}
+          >
             <div className="Technology__image">
               <picture>
                 <source
