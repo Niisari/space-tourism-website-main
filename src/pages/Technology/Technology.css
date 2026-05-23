@@ -104,3 +104,48 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .Technology__wrapper {
+    background: url(../../assets/technology/background-technology-tablet.jpg)
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Technology__container {
+    padding: 8.5rem 0 2.5rem 0;
+  }
+
+  .Technology__subtitle {
+    justify-content: start;
+    padding-left: 2.5rem;
+
+    font-size: 1.5rem;
+  }
+
+  .Technology__image img,
+  .Technology__image picture {
+    min-height: 22.313rem;
+  }
+
+  .dot__tech {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .Technology__text--container {
+    .Technology__title {
+      font-size: 1.5rem;
+    }
+
+    .Technology__name {
+      font-size: 2.5rem;
+    }
+
+    .Technology__description {
+      font-size: 1rem;
+      max-width: 32rem;
+    }
+  }
+}
