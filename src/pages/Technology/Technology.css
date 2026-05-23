@@ -1,0 +1,7 @@
+.Technology__wrapper {
+  background: url(../../assets/technology/background-technology-mobile.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100svh;
+}
