@@ -8,7 +8,7 @@ import "./styles/Global.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/space-tourism-website-main">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
