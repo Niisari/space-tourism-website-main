@@ -61,6 +61,13 @@
   font-size: 0.938rem;
 }
 
+.HomePage__btn--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 23.875rem;
+}
+
 .HomePage__btn {
   background: var(--white);
   color: var(--blue-900);
