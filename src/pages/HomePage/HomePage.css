@@ -62,6 +62,7 @@
 }
 
 .HomePage__btn--wrapper {
+  /* Deploy this pls */
   display: flex;
   flex-direction: column;
   justify-content: center;
