@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/Preview.png)
 
 ### Links
 
@@ -42,8 +42,8 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/)
-- [Vite] (https://vite.dev/)
-- [React-Router] (https://reactrouter.com/)
+- [Vite](https://vite.dev/)
+- [React-Router](https://reactrouter.com/)
 
 ### What I learned
 
